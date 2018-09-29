@@ -78,7 +78,7 @@ client.on('guildMemberAdd', member => {
     var wel3_embed = new Discord.RichEmbed()
      .setColor(pcolor)
      .setColor(pcolor)
-     .setAuthor("Je t'invite à aller voir le salon 🔧𝗖𝗢𝗡𝗙𝗜𝗚 pour avoir accès aux reste du serveur..")
+     .setAuthor("Je t'invite à aller voir dans le salon #🔧𝗖𝗢𝗡𝗙𝗜𝗚 pour avoir accès aux reste du discord..")
      .setFooter("Discord bot by AirKass#9247 - https://airkass.tk")
     member.createDM().then(channel => {
         return channel.send(wel1_embed);  
