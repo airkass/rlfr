@@ -196,53 +196,6 @@ client.on("message", (message) => {
 
 })
 
-// ⇉ RANDOM (BONJOUR,SALUT..)
-client.on('message', message => {
-
-    if(message.content.toLowerCase().includes('bonjour')){
-        random();
-
-        if (randnum == 0){
-            message.reply("Hey, je suis un bot !");
-        }
-
-        if (randnum == 1){
-            message.reply("Hey ça roule ?");
-        }
-
-        if (randnum == 2){
-            message.reply("Yoo");
-        }
-
-        if (randnum == 3){
-            message.reply("Hey");
-        }
-
-
-    }
-    if(message.content.toLowerCase().includes('salut')){
-        random2();
-
-        if (randnum == 0){
-            message.reply("Hey, je suis un bot !");
-        }
-
-        if (randnum == 1){
-            message.reply("Hey ça roule ?");
-        }
-
-        if (randnum == 2){
-            message.reply("Yoo");
-        }
-
-        if (randnum == 3){
-            message.reply("Hey");
-        }
-
-    }
-
-});
-
 function random2(min, max) {
     min = Math.ceil(0);
     max = Math.floor(4);
